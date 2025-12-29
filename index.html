@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Printing Business - Beni & Marie</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background: #fff;
+            color: #000;
+        }
+
+        .hero {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            justify-content: space-between;
+            padding: 0 5%;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+        }
+
+        .hero-text {
+            margin-top: auto;
+            margin-bottom: auto;
+            flex: 1;
+            max-width: 600px;
+        }
+
+        .hero-text h1 {
+            font-size: 4rem;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .hero-image {
+            max-width: 500px;
+            flex: 1;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        .hero-image img {
+            width: 500px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 20px 40px;
+            background: #000;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 1200px) {
+            .hero-image img {
+                width: 80vw;
+                margin-top: 100px;
+            }
+            .hero-image {
+                text-align: center  ;
+            }
+
+            .hero {
+                align-items: center;
+            }
+
+            .hero-text h1 {
+                margin-top: 100px;
+                font-size: 3rem;
+            }
+
+            .cta-button { 
+                font-size: 1rem;                
+            }
+
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            right: 5px;
+            left: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid black;
+            z-index: 1;
+            margin: 5px;
+        }
+
+        .navbar h1 {
+            font-family: 'Inter', sans-serif;
+            margin: 5px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div>
+            <h1>BY BM</h1>
+        </div>
+        <div>
+            <a style="padding: 5px 10px; font-size: 1.125rem; margin-right: 10px;" href="mailto:kraettrash@gmail.com?subject=3D%20Druck%20Anfrage" class="cta-button">Anfragen</a>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Präziser 3D-Druck aus Leopoldsdorf.</h1>
+            <a href="mailto:kraettrash@gmail.com?subject=3D%20Druck%20Anfrage" class="cta-button">Schreib uns!</a>
+        </div>
+        <div class="hero-image">
+            <!-- Platzhalter für Bambulab A1 Bild -->
+            <img width="600px" src="https://asset.conrad.com/media10/isa/160267/c1/-/de/003123319PI00/image.jpg"
+                alt="Bambulab A1">
+        </div>
+    </section>
+</body>
+
+</html>
