@@ -179,3 +179,8 @@ p {
 .carousel {
     border-bottom: 1px solid black;
 }
+
+.text-small {
+    font-size: 0.75rem;
+    font-weight: normal;
+}
