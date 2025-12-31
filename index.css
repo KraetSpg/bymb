@@ -175,3 +175,7 @@ p {
     max-height: 500px;
     border: 2px solid black;
 }
+
+.carousel {
+    border-bottom: 1px solid black;
+}
